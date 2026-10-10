@@ -1,0 +1,244 @@
+===========================================================================
+HASIL EVALUASI OCR NOMOR IJAZAH
+===========================================================================
+
+GROUND TRUTH:
+Nomor Ijazah: 571012022000056
+
+---------------------------------------------------------------------------
+CITRA 01: 01_HighQuality_Enhanced (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+. Nomor yazah: 57 _
+Akurasi: 3.45%
+
+Mean Filter:
+| Nomor yazah: 571
+Akurasi: 3.45%
+
+Median Filter:
+| Nomor yazah: 571] oe
+Akurasi: 3.45%
+
+Gaussian:
+Nomor tjazah: 571 oe
+Akurasi: 55.17%
+
+Sharpening:
+a ee ne
+Akurasi: 0.00%
+
+---------------------------------------------------------------------------
+CITRA 02: 02_LowContrast (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+. Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+Mean Filter:
+Nomor yyazah: 571012022000056
+Akurasi: 93.10%
+
+Median Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Gaussian:
+| Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+Sharpening:
+: Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+---------------------------------------------------------------------------
+CITRA 03: 03_Blurred (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+Nomor ijazah: 571 — : -
+Akurasi: 55.17%
+
+Mean Filter:
+Nomor a ; 2 —
+Akurasi: 20.69%
+
+Median Filter:
+Nomor ijazah: 571 ed . .
+Akurasi: 55.17%
+
+Gaussian:
+Tidak terbaca
+Akurasi: 0.00%
+
+Sharpening:
+Nomor jazah: 571 —
+Akurasi: 20.69%
+
+---------------------------------------------------------------------------
+CITRA 04: 04_HighNoise (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+- Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+Mean Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Median Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Gaussian:
+e Nomor tjazah: 571012022000056
+Akurasi: 20.69%
+
+Sharpening:
+Tidak terbaca
+Akurasi: 0.00%
+
+---------------------------------------------------------------------------
+CITRA 05: 05_LowResolution_Upsampled (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+Nomor iazah: 571012022000056
+Akurasi: 34.48%
+
+Mean Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Median Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Gaussian:
+Nomor ijazah: 571012022000056
+Akurasi: 96.55%
+
+Sharpening:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+---------------------------------------------------------------------------
+CITRA 06: 06_Faded_Underexposed (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+| Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+Mean Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Median Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Gaussian:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Sharpening:
+Nomor yazah: 571012022000056 |
+Akurasi: 34.48%
+
+---------------------------------------------------------------------------
+CITRA 07: 07_ColorShift_WarmTint (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+: Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+Mean Filter:
+Nomor tjazah: 571012022000056
+Akurasi: 96.55%
+
+Median Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Gaussian:
+| Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+Sharpening:
+Nomor ijazah: 571012022000056 |
+Akurasi: 96.55%
+
+---------------------------------------------------------------------------
+CITRA 08: 08_JPEGCompression_Artifacts (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Mean Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Median Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Gaussian:
+| Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+Sharpening:
+: Nomor yazah: 571012022000056
+Akurasi: 17.24%
+
+---------------------------------------------------------------------------
+CITRA 09: 09_CombinedDegradation (1).jpg
+---------------------------------------------------------------------------
+
+Ground Truth : Nomor Ijazah: 571012022000056
+
+Original:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Mean Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Median Filter:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Gaussian:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+Sharpening:
+Nomor yazah: 571012022000056
+Akurasi: 34.48%
+
+===========================================================================
+EVALUASI OCR SELESAI
+===========================================================================
