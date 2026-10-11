@@ -1,0 +1,24 @@
+===========================================================================
+CITRA 03 : citra03.jpg
+===========================================================================
+
+ANALISIS DISTRIBUSI INTENSITAS
+Mean                 : 239.55
+Median               : 245.00
+Minimum              : 91
+Maksimum             : 255
+Rentang intensitas   : 164
+Standar deviasi      : 20.79
+Piksel gelap         : 0.00%
+Piksel sedang        : 3.42%
+Piksel terang        : 96.58%
+Intensitas dominan   : 245
+
+INDIKASI KONDISI CITRA:
+- Terlalu terang
+- Contrast rendah
+
+CATATAN ANALISIS:
+- Statistik dihitung dari citra grayscale.
+- Histogram RGB dan grayscale digunakan sebagai bahan pendukung analisis.
+- Kesimpulan akhir harus mempertimbangkan statistik, histogram, dan pengamatan visual.

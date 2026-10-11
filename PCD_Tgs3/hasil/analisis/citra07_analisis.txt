@@ -1,0 +1,23 @@
+===========================================================================
+CITRA 07 : citra07.jpg
+===========================================================================
+
+ANALISIS DISTRIBUSI INTENSITAS
+Mean                 : 231.36
+Median               : 240.00
+Minimum              : 0
+Maksimum             : 253
+Rentang intensitas   : 253
+Standar deviasi      : 33.33
+Piksel gelap         : 2.16%
+Piksel sedang        : 2.90%
+Piksel terang        : 94.93%
+Intensitas dominan   : 243
+
+INDIKASI KONDISI CITRA:
+- Terlalu terang
+
+CATATAN ANALISIS:
+- Statistik dihitung dari citra grayscale.
+- Histogram RGB dan grayscale digunakan sebagai bahan pendukung analisis.
+- Kesimpulan akhir harus mempertimbangkan statistik, histogram, dan pengamatan visual.

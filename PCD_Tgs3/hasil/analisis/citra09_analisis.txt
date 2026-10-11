@@ -1,0 +1,23 @@
+===========================================================================
+CITRA 09 : citra09.jpg
+===========================================================================
+
+ANALISIS DISTRIBUSI INTENSITAS
+Mean                 : 184.62
+Median               : 190.00
+Minimum              : 21
+Maksimum             : 198
+Rentang intensitas   : 177
+Standar deviasi      : 21.83
+Piksel gelap         : 1.86%
+Piksel sedang        : 5.05%
+Piksel terang        : 93.09%
+Intensitas dominan   : 191
+
+INDIKASI KONDISI CITRA:
+- Contrast rendah
+
+CATATAN ANALISIS:
+- Statistik dihitung dari citra grayscale.
+- Histogram RGB dan grayscale digunakan sebagai bahan pendukung analisis.
+- Kesimpulan akhir harus mempertimbangkan statistik, histogram, dan pengamatan visual.

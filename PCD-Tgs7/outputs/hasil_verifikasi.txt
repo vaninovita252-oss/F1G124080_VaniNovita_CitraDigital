@@ -1,0 +1,16 @@
+HASIL VERIFIKASI TANDA TANGAN
+=============================
+
++--------------------------------------+------------+---------------+-------------+--------------+----------+
+|              Nama File               | Label Asli | Hasil Deteksi | Rasio Tinta | Jumlah Kotak | Evaluasi |
++--------------------------------------+------------+---------------+-------------+--------------+----------+
+|01_HighQuality_Enhanced (1).jpg       |PRESENT     |PRESENT        |0.0701       |278           |SESUAI    |
+|02_LowContrast (1).jpg                |PRESENT     |PRESENT        |0.0407       |43            |SESUAI    |
+|03_Blurred (1).jpg                    |PRESENT     |PRESENT        |0.0456       |34            |SESUAI    |
+|04_HighNoise (1).jpg                  |PRESENT     |PRESENT        |0.1235       |627           |SESUAI    |
+|05_LowResolution_Upsampled (1).jpg    |PRESENT     |PRESENT        |0.0496       |101           |SESUAI    |
+|06_Faded_Underexposed (1).jpg         |PRESENT     |PRESENT        |0.0378       |41            |SESUAI    |
+|07_ColorShift_WarmTint (1).jpg        |PRESENT     |PRESENT        |0.0639       |188           |SESUAI    |
+|08_JPEGCompression_Artifacts (1).jpg  |PRESENT     |PRESENT        |0.0600       |178           |SESUAI    |
+|09_CombinedDegradation (1).jpg        |PRESENT     |PRESENT        |0.0414       |44            |SESUAI    |
++--------------------------------------+------------+---------------+-------------+--------------+----------+

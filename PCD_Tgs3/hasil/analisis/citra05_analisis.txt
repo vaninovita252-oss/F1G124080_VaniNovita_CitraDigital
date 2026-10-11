@@ -1,0 +1,24 @@
+===========================================================================
+CITRA 05 : citra05.jpg
+===========================================================================
+
+ANALISIS DISTRIBUSI INTENSITAS
+Mean                 : 239.69
+Median               : 248.00
+Minimum              : 0
+Maksimum             : 255
+Rentang intensitas   : 255
+Standar deviasi      : 28.30
+Piksel gelap         : 0.67%
+Piksel sedang        : 3.65%
+Piksel terang        : 95.68%
+Intensitas dominan   : 249
+
+INDIKASI KONDISI CITRA:
+- Terlalu terang
+- Contrast rendah
+
+CATATAN ANALISIS:
+- Statistik dihitung dari citra grayscale.
+- Histogram RGB dan grayscale digunakan sebagai bahan pendukung analisis.
+- Kesimpulan akhir harus mempertimbangkan statistik, histogram, dan pengamatan visual.

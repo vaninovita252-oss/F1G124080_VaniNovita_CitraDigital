@@ -1,0 +1,23 @@
+===========================================================================
+CITRA 08 : citra08.jpg
+===========================================================================
+
+ANALISIS DISTRIBUSI INTENSITAS
+Mean                 : 239.53
+Median               : 248.00
+Minimum              : 0
+Maksimum             : 255
+Rentang intensitas   : 255
+Standar deviasi      : 32.11
+Piksel gelap         : 1.52%
+Piksel sedang        : 3.09%
+Piksel terang        : 95.40%
+Intensitas dominan   : 249
+
+INDIKASI KONDISI CITRA:
+- Terlalu terang
+
+CATATAN ANALISIS:
+- Statistik dihitung dari citra grayscale.
+- Histogram RGB dan grayscale digunakan sebagai bahan pendukung analisis.
+- Kesimpulan akhir harus mempertimbangkan statistik, histogram, dan pengamatan visual.
