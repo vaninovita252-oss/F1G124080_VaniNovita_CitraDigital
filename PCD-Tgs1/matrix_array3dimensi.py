@@ -1,3 +1,7 @@
+
+import numpy as np
+
+
 def input_array_3d(nama, depth, baris, kolom):
     print(f"\n=== INPUT ARRAY {nama} ===")
 
@@ -25,17 +29,18 @@ def input_array_3d(nama, depth, baris, kolom):
 
         array.append(matriks)
 
-    return array
+    # Mengubah list Python menjadi array NumPy 3D
+    return np.array(array, dtype=int)
 
 
 def perkalian_matriks(A, B):
-    depth = len(A)
+    depth = A.shape[0]
 
-    baris_A = len(A[0])
-    kolom_A = len(A[0][0])
+    baris_A = A.shape[1]
+    kolom_A = A.shape[2]
 
-    baris_B = len(B[0])
-    kolom_B = len(B[0][0])
+    baris_B = B.shape[1]
+    kolom_B = B.shape[2]
 
     # Syarat perkalian matriks
     if kolom_A != baris_B:
@@ -43,26 +48,13 @@ def perkalian_matriks(A, B):
 
     hasil = []
 
-    # Perkalian setiap matriks dalam array 3D
+    # Perkalian setiap matriks pada lapisan yang sama
     for d in range(depth):
-        matriks_hasil = []
-
-        for i in range(baris_A):
-            baris_hasil = []
-
-            for j in range(kolom_B):
-                jumlah = 0
-
-                for k in range(kolom_A):
-                    jumlah += A[d][i][k] * B[d][k][j]
-
-                baris_hasil.append(jumlah)
-
-            matriks_hasil.append(baris_hasil)
-
+        matriks_hasil = np.matmul(A[d], B[d])
         hasil.append(matriks_hasil)
 
-    return hasil
+    # Mengubah hasil menjadi array NumPy 3D
+    return np.array(hasil, dtype=int)
 
 
 def tampilkan_array(array, nama):
@@ -98,22 +90,16 @@ try:
     # Mengecek syarat perkalian
     if kolom_A != baris_B:
         print("\nERROR: Kolom Array A harus sama dengan baris Array B.")
-        exit()
+        raise SystemExit
 
     # Input Array A
     A = input_array_3d(
-        "A",
-        depth,
-        baris_A,
-        kolom_A
+        "A", depth, baris_A, kolom_A
     )
 
     # Input Array B
     B = input_array_3d(
-        "B",
-        depth,
-        baris_B,
-        kolom_B
+        "B", depth, baris_B, kolom_B
     )
 
     # Perkalian
